@@ -1,3 +1,4 @@
-# basisproject
-# venv -- enviroment file
+# Basisproject
+# Mykyta Garbuzov
+# Api Flas + END,UPDATE,POST,PUT
 
