@@ -22,7 +22,7 @@ jobs:
         username: ${{ secrets.DOCKER_USER }}
         password: ${{ secrets.DOCKER_PASSWORD }}
     - name: Docker Build
-      run: docker build -t ${{ secrets.DOCKER_USER }}/flaskApi:latest .
+      run: docker build -t ${{ secrets.DOCKER_USER }}/flaskapi:latest .
       
     - name: Upload container to Docker Hub with Push
-      run: docker push ${{ secrets.DOCKER_USER }}/flaskApi:latest
+      run: docker push ${{ secrets.DOCKER_USER }}/flaskapi:latest
