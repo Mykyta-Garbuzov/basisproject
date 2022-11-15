@@ -1,21 +1,14 @@
-FROM alpine:latest
+FROM python:3.6.9-alpine
 
-
-RUN apk add --no-cache python3-dev \
-    && python3 -m ensurepip \
-    && pip3 install --upgrade pip
-
-RUN mkdir -p /project
 WORKDIR /project
-
-COPY ./requirements.txt /project/
-RUN pip install --no-cache-dir --upgrade -r /project/requirements.txt
-
-COPY . /project
-COPY ./app/ /project
+RUN python -m pip install --upgrade pip
+COPY requirements.txt requirements.txt
+RUN pip install -r requirements.txt
 
 
 
+COPY . .
 EXPOSE 5000
 
-CMD ["python3", "api.py"]
+CMD [ "python", "api.py" ]
+
