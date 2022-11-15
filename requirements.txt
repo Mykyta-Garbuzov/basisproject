@@ -1,4 +1,6 @@
-gunicorn==20.1.0
-flask>=2.2.2
+flask>=2.0.3
 connexion[swagger-ui]==2.14.1
+
+
+	
 
