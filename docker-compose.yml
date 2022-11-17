@@ -3,7 +3,10 @@ services:
     web:
         build: .
         ports:
-            - "5000:5000"
+            - "8000:8000"
         volumes:
             - .:/project
+        environment: 
+            PORT: 8000
+            FLASK_DEBUG: 1
             

@@ -10,5 +10,10 @@
     <h1>
         Welcome to the test page
     </h1>
+    <ul>
+        {% for person in people %}
+        <li>{{ person.name }} {{ person.surname }}</li>
+        {% endfor %}
+    </ul>
 </body>
 </html>
