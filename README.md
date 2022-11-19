@@ -6,7 +6,7 @@
 * Mijn hosted front-end link: https://web-mykyta-garbuzov.cloud.okteto.net/
 
 
-- OpenAPI
+# OpenAPI
   - Algemene pagina
     ![image](https://user-images.githubusercontent.com/71609618/202863317-5c3fdcb8-6a1b-4882-b94a-aad3ececee69.png)
   - Iedereen van database
@@ -22,7 +22,7 @@
   - Update one person
     ![image](https://user-images.githubusercontent.com/71609618/202863657-6ab69c32-aa48-44ad-9b2c-2fad713f3959.png)
     ![image](https://user-images.githubusercontent.com/71609618/202863667-2087cc75-b856-4ae3-b73f-c3b3ed7703a8.png)
-- Postman
+# Postman
   - Iedereen van database
     ![image](https://user-images.githubusercontent.com/71609618/202863755-35078ddd-4b62-4abc-a790-96208fb38cad.png)
   - Get one person
@@ -30,7 +30,7 @@
   - Create one person
     ![image](https://user-images.githubusercontent.com/71609618/202863768-f8cbd067-cddc-4a10-a3d1-815925263a4b.png)
     ![image](https://user-images.githubusercontent.com/71609618/202863771-95b10890-dc28-4449-a6d9-ac19a07b7cb5.png)
-- Front-End
+# Front-End
   - Pagina
     ![image](https://user-images.githubusercontent.com/71609618/202863860-c985a917-35db-42a7-b1c0-1f7daa8eba0d.png)
   - Eerste Script
